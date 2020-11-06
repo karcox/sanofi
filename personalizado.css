@@ -79,3 +79,19 @@ background-color: white;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
 }
+
+.numericos div{
+    display: inline-block;
+    margin-left: 1%;
+    color: #0092D4;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.numericos div div{
+    font-size: 20px;
+    vertical-align:top; 
+    font-weight: normal;
+
+}
