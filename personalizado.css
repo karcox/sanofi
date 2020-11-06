@@ -86,7 +86,8 @@ background-color: white;
 #vacantes, #proyectos, #empleados, #nacionalidades{
     font-size: 60px;
     font-weight: bold;
-    
+    width: 90%;
+
 }
 
 .numericos div div{
@@ -95,3 +96,4 @@ background-color: white;
     font-weight: normal;
 
 }
+
