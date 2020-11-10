@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alertifyjs/css/alertify.min.css" />
+    <link rel="stylesheet" href="alertifyjs/css/themes/default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <link href="css/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styleprueba.css">
+
+   
+    <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.9.1/sweetalert2.min.css">
+    <script type="text/javascript" src="sweetalert2.min.js" ></script>
+
+
+
+</head>
+<body>
+
+  <!-- 
+
+    <video id="my-video" class="video-js vjs-fluid  vjs-default-skin  vjs-big-play-centered"
+
+    controls
+    preload="auto"
+    data-setup="{}"
+    >
+    <source src="musicarelajante.mp4" type="video/mp4" />
+    <div id="play-btn" class="video-controls">PLAY</div>
+    <p class="vjs-no-js ">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+    </video> -->
+
+<script> 
+varHtml =
+`
+
+<video id="my-video" class="video-js vjs-fluid  vjs-default-skin  vjs-big-play-centered"
+
+controls
+preload="auto"
+data-setup="{}"
+>
+<source src="musicarelajante.mp4" type="video/mp4" />
+<div id="play-btn" class="video-controls">PLAY</div>
+<p class="vjs-no-js ">
+  To view this video please enable JavaScript, and consider upgrading to a
+  web browser that
+  <a href="https://videojs.com/html5-video-support/" target="_blank"
+    >supports HTML5 video</a
+  >
+</p>
+</video>
+`;
+Swal.fire({
+
+ html: varHtml,
+showCancelButton: false,
+showConfirmButton: false
+
+})
+</script> 
+
+
+    <script src="alertifyjs/alertify.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+    <script src="prueba.js"></script>
+</body>
+</html>
