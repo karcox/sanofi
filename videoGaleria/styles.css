@@ -1,0 +1,28 @@
+
+          .thumb{
+              margin-bottom: 30px;
+          }
+                    
+          .page-top{
+              margin-top:25px;
+          }
+  
+     
+  img.zoom {    
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      -ms-transition: all .2s ease-in-out;
+      cursor: pointer;
+  }
+          
+  .zoom:hover{
+    -webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+
+  }   
+ 
