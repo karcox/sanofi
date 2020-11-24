@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Prueba de implementación A2HS",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Nombre Largo",
+  "short_name": "Nombre",
+  "start_url": "/"
+}
